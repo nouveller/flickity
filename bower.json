@@ -6,7 +6,11 @@
     "js/index.js",
     "css/flickity.css"
   ],
-  "dependencies": {
+  "devDependencies": {
+    "flickity-imagesloaded": "~1.0.0",
+    "flickity-as-nav-for": "~1.0.0",
+    "jquery-bridget": "~1.1.0",
+    "qunit": "~1.16.0",
     "get-size": "~1.2.2",
     "matches-selector": "~1.0.2",
     "eventEmitter": "~4.2.11",
@@ -17,12 +21,6 @@
     "unidragger": "~1.1.2",
     "fizzy-ui-utils": "~1.0.0",
     "tap-listener": "~1.1.1"
-  },
-  "devDependencies": {
-    "flickity-imagesloaded": "~1.0.0",
-    "flickity-as-nav-for": "~1.0.0",
-    "jquery-bridget": "~1.1.0",
-    "qunit": "~1.16.0"
   },
   "moduleType": [
     "amd",
